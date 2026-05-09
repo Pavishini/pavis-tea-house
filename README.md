@@ -1,65 +1,101 @@
 # 🍃 Pavi's Tea House
 
-A premium, fully responsive front-end e-commerce web application designed with an elegant, earthy aesthetic. Experience a complete online shopping journey—from browsing high-quality teas to managing your profile and checkout—all powered by vanilla JavaScript and localStorage.
+A modern and fully responsive tea e-commerce website designed with a premium green-themed UI and smooth user experience.
+Pavi’s Tea House allows users to explore tea products, manage carts and wishlists, create accounts, and enjoy a clean shopping experience.
 
-**[🌐 Live Demo](#)** | **[📖 Documentation](#)** | **[🐛 Report Bug](../../issues)** | **[✨ Request Feature](../../issues)**
-
----
-
-## ✨ Key Features
-
-### 🛍️ E-Commerce Capabilities
-- **Dynamic Product Catalog** - Browse 15+ premium tea varieties with real-time search filtering
-- **Smart Category Sorting** - Filter by Green, Black, Herbal, Oolong, and Chai teas
-- **Product Quick-View Modal** - High-res images, detailed descriptions, dynamic pricing, and customer reviews
-- **Advanced Shopping Cart** - Slide-out sidebar with real-time quantity adjustments and price calculations
-- **Promo Code System** - Enter `PAVI10` during checkout for instant 10% discount
-- **Simulated Checkout** - Secure payment processing overlay that converts cart items to permanent orders
-
-### 👤 User Authentication & Profile
-- **Local Session Management** - Secure mock login/signup flows with persistent user state
-- **User Dashboard** - Dedicated profile page with:
-  - 📦 **Order History** - Complete purchase logs with status badges (Processing, Shipped, Delivered)
-  - ❤️ **Wishlist** - Heart your favorite teas and save for later
-  - ⚙️ **Account Settings** - Update shipping addresses and personal information
-
-### 🎨 Modern UI/UX
-- **Dark/Light Mode** - Elegant theme toggle that persists across sessions
-- **Fluid Animations** - Custom CSS keyframes for smooth page transitions
-- **Mobile-First Design** - Fully responsive grid/flexbox architecture
-- **Hamburger Navigation** - Collapsible menu for seamless mobile browsing
-- **Accessibility** - Semantic HTML and keyboard-friendly interactions
+🌐 Live Website: https://pavis-tea-house-r9p3.vercel.app
 
 ---
 
-## 🛠️ Technology Stack
+## ✨ Features
 
-Built from scratch using vanilla web technologies—no heavy frameworks:
-
-- **HTML5** - Semantic structure and SPA routing
-- **CSS3** - Custom variables, Flexbox, Grid, animations, and dark mode
-- **JavaScript (ES6+)** - DOM manipulation, state management, and event handling
-- **localStorage** - Client-side data persistence (cart, sessions, preferences, orders)
+* 🛍️ Tea product catalog
+* 🔍 Product search and category filters
+* 🛒 Shopping cart functionality
+* ❤️ Wishlist support
+* 👤 Login and signup system
+* 📦 User profile with order history
+* ⚙️ Account settings section
+* 🌙 Dark and light mode
+* 🎨 Modern green luxury UI with smooth animations
+* 📱 Fully responsive design
+* 💾 localStorage data persistence
 
 ---
 
-## 📂 File Structure
+## 🛠️ Technologies Used
 
-```
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* localStorage
+* Vercel Deployment
+
+---
+
+## 📂 Project Structure
+
+```bash
 pavi-tea-house/
-├── index.html          # Core HTML layout with all "pages" as views
-├── style.css           # Styling, animations, dark mode, responsive design
-├── app.js              # Application logic, state management, mock database
-├── README.md           # Project documentation (this file)
-├── LICENSE             # MIT License
-├── .gitignore          # Git ignore rules
-└── images/             # Product images and team avatars
-    ├── black_tea_product_*.png
-    ├── pavishini.png
-    └── ...
+│
+├── index.html
+├── style.css
+├── app.js
+├── README.md
+└── images/
 ```
 
+---
 
-**Made with ☕ and 🍃 by the Pavi's Tea House team**
+## 🚀 Live Deployment
 
-⭐ **If you like this project, please star it!** ⭐
+Website hosted on Vercel:
+
+https://pavis-tea-house-r9p3.vercel.app
+
+---
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Pavishini/pavis-tea-house.git
+```
+
+Open the project folder:
+
+```bash
+cd pavi-tea-house
+```
+
+Run the project by opening:
+
+```bash
+index.html
+```
+
+---
+
+## 👩‍💻 Developed By
+
+**Pavishini Karthikeyan**
+Founder of **Pavi’s Tea House** 🍃
+
+Designed and developed with passion for modern web experiences and premium tea branding.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+Made with ☕ and 💚 by Pavishini
